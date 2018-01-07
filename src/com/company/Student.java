@@ -2,7 +2,7 @@ package com.company;
 
 import java.security.PublicKey;
 
-public class Student
+public abstract class Student
 {
     private int height;
     private int weight;
@@ -16,6 +16,9 @@ public class Student
         this.height=180;
         this.weight=65;
     }
+    public abstract String toString();
+    public abstract boolean equals(Object s);
+    public abstract void How();
     public int GetHeight()
     {
         return this.height;
