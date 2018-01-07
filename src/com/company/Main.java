@@ -19,5 +19,12 @@ public class Main
             System.out.println("Yes");
         }
         else System.out.println("No");
+        People[] people=new People[4];
+        people[0]=new Teacher(190,100);
+        people[1]=new Sportsmen(30);
+        people[2]=new Scientific(100);
+        System.out.println(people[0]);
+        System.out.println(people[1]);
+        System.out.println(people[2]);
     }
 }

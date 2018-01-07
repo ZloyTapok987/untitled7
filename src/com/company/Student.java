@@ -2,7 +2,7 @@ package com.company;
 
 import java.security.PublicKey;
 
-public abstract class Student
+public abstract class Student implements People
 {
     private int height;
     private int weight;

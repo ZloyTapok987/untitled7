@@ -1,6 +1,6 @@
 package com.company;
 
-public class Sportsmen extends Student
+public class Sportsmen extends Student implements People
 {
     private int strength;
     public Sportsmen(int s)

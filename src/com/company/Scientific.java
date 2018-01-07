@@ -1,5 +1,5 @@
 package com.company;
-public class Scientific extends Student
+public class Scientific extends Student implements People
 {
     private int mind;
     public Scientific(int m)
